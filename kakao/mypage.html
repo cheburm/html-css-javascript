@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mainNav.css">
+    <link rel="stylesheet" href="css/mypage.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav">
+                <a href="" class="brand_logo"><h1>kakao</h1></a>
+                <ul class="nav_item">
+                    <a href=""><li>카카오</li></a>
+                    <a href=""><li>뉴스</li></a>
+                    <a href=""><li>기술과 서비스</li></a>
+                    <a href=""><li>약속과 책임</li></a>
+                </ul>
+                <ul class="nav_user">
+                    <a href="sign_in.jsp"><li><i class="fas fa-user"></i></li></a>
+                    <a href="sign_up_email.jsp"><li><i class="fas fa-user-plus"></i></li></a>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="mypage-content">
+                <div>
+                    <h1>마이페이지</h1>
+                </div>
+                <div class="mypage-items">
+                    <div class="item_tf">
+                        <input type="hidden" id="user_email" value="junil">
+                        <label class="item_lb" for="">junil@kakao.com</label>
+                    </div>
+                    <div class="item_tf">
+                        <input type="password" class="item_ip" placeholder="비밀번호 입력">
+                    </div>
+                    <div class="item_msg">
+                        <span class="msg1"></span>
+                    </div>
+                    <div class="item_tf">
+                        <input type="password" class="item_ip" placeholder="비밀번호 확인">
+                    </div>
+                    <div class="item_msg">
+                        <span class="msg1">비밀번호가 일치하지 않습니다.</span>
+                    </div>
+                    <div class="item_tf">
+                        <input type="hidden" id="user_name" value="김준일">
+                        <label class="item_lb" for="">김준일</label>
+                    </div>
+                    <div class="item_tf">
+                        <input type="tel" class="item_ip" placeholder="전화번호 입력">
+                        <div class="util_tf">
+                            <button class="button_round">인증요청</button>
+                        </div>
+                    </div>
+                    <div class="item_msg">
+                        <span class="msg1">이미 가입된 연락처 입니다.</span>
+                        <span class="msg2">인증실패. 연락처를 다시 확인해 주세요.</span>
+                        <span class="msg3">인증성공.</span>
+                    </div>
+                    <div class="confirm_btn">
+                        <button class="btn_g">회원정보 수정</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/c3df4d7d1c.js" crossorigin="anonymous"></script>
+    <script src="js/mypage.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+.container {
+    margin: 0px auto;
+    padding-top: 30px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.mypage-content {
+    border: 1px solid #e5e5e5;
+    padding: 50px 195px;
+}
+
+.mypage-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item_tf {
+    box-sizing: border-box;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-color: #252525;
+    padding: 10px 120px 8px 0px;
+    width: 440px;
+    height: 48px;
+    position: relative;
+    margin: 0px 0px 10px;
+}
+
+.item_ip {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 0px;
+    font-size: 18px;
+    color: #191919;
+    cursor: pointer;
+}
+
+.item_lb {
+    font-size: 18px;
+    color: #191919;
+}
+
+::placeholder {
+    font-weight: 600;
+    color: #aaaaaa
+}
+
+.item_msg {
+	font-size: 12px;
+	color: red;
+}
+
+.item_msg .msg1 {
+	display: none;
+}
+
+.item_msg .msg2 {
+	display: none;
+}
+
+.item_msg .msg3 {
+	color: green;
+	display: none;
+}
+
+.util_tf {
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+}
+
+.button_round {
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 12px 1px;
+    margin: 7px 0px 0px 7px;
+    height: 30px;
+    border-radius: 32px;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.confirm_btn {
+    padding: 45px 0px 0px;
+
+}
+
+.btn_g {
+    border: none;
+    background-color: #ebebeb;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn_g:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}

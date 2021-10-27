@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}  
+#contents {
+  position: relative;
+ background:url("../images/bg.jpg") no-repeat;
+ background-size:cover;
+ width:800px;
+ height:500px;
+ margin:0 auto;
+}
+h1 { 
+  position: absolute;
+  right: 300px;
+  bottom: 100px;
+  color:#fff; 
+  font-size:120px;
+  text-shadow: 2px 3px 0 #000;      
+}

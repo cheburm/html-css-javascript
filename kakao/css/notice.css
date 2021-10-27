@@ -1,0 +1,61 @@
+.container {
+    margin: 0px auto;
+    padding-top: 30px;
+    width: 1296px;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: 1px solid rgb(214, 214, 214);
+    height: 30px;
+    text-align: center;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+.notice_header ul{
+    border-bottom: 5px solid steelblue;
+}
+
+.notice_main ul {
+    border-top: 0px;
+}
+
+.notice_main ul:hover {
+    background: rgb(250, 250, 250);
+}
+
+.notice_num {
+    width: 50px;
+}
+
+.notice_title {
+    width: 400px;
+}
+
+.notice_writer {
+    width: 120px;
+}
+
+.notice_date {
+    width: 130px;
+}
+
+.notice_count {
+    width: 100px;
+}

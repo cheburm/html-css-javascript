@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.brand_logo {
+    text-decoration: none;
+    color: black;
+}
+
+.brand_logo h1 {
+    font-weight: 600;
+}
+
+.nav_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 532px;
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+.nav_item a {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.nav_item a:hover {
+    color: darkgray;
+}
+
+.nav_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav_user a{
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black;
+}
+
+.nav_user a:hover {
+    color: darkgray;
+}

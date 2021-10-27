@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+.box1 {
+    box-sizing: border-box;
+    margin: 50px 0px 0px;
+    padding: 10px 10px 10px 10px; 
+    border: 5px solid black;
+    width: 1000px;
+    height: 100px;
+    background: blue;
+}
+
+.box2 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    left: 100px;
+    width: 600px;
+    height: 600px;
+    background: red;
+}
+
+.box3 {
+    box-sizing: border-box;
+    border: 3px solid red;
+    margin: 0px auto;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background: cadetblue;
+    text-align: left;
+}
+
+.box4 {
+    position: fixed;     
+    top: 30px;
+    right: 50px;
+
+    width: 100px;
+    height: 100px;
+    background: cornsilk;
+}
+
+span {
+    margin-left: auto;
+    margin-right: auto;
+}
