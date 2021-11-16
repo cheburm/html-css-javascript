@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+ body{font-family: 'Nanum Gothic', sans-serif;}
+
+.containar{width: 100%; height: 100;
+            margin: 0 auto;
+}
+a{text-decoration: none;}
+
+ul li{list-style: none;}
+
+*{margin: 0; padding: 0;}
+
+/* 헤더 부분 */
+
+.warp_header{
+    height: 156px;
+}
+.header{
+    margin: 0 300px; height: 100%;
+}
+.header_top{
+    box-sizing: border-box;
+    height: 31.6px; padding: 6px 0 4px;
+}
+    .header_top ul {width: 470px;}
+    .header_top ul li {float: left; padding: 0 10px;}
+    .header_top ul li a{font-size: 12px; color: #444444;}
+    .header_top ul li a i{color: rgb(0, 200, 255); 
+        font-size: 15px; padding-right: 5px;}
+    #ticket-font{font-weight: 800;}
+
+    #player{width: 376px; float: right;}
+    #player li{float: right;}
+    #player li:first-child{padding: none;}
+    #player-font{color: #0096ff; font-weight: 700;}
+
+
+.header_search{
+    height: 85px; 
+    background-color: cyan;
+}
+.header_nav{
+    height: 38px;
+    background-color: darkgoldenrod;
+}
+
+/* 바디부분 */
+.warp_body{
+    width: 100%; height: 100%;
+    background-color: brown;
+}          
+
+/* 푸터 부분 */
+.warp_footer{
+    width: 100%; height: 301px;
+    background-color: chocolate;
+}

@@ -58,3 +58,31 @@ main li {
     height: 600px;
     resize: none;
 }
+
+.nd-file-ip{
+    width: 798px;
+}
+
+.nd-file-li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 798px; padding: 5px;
+}
+
+.item-file{
+    display: inline-block;
+    margin: 0 3px 3px 0;
+    padding: 1px 5px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px; font-size: 12px;
+    text-align: center;
+}
+
+.item-file:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+.file-dbtn{
+    display: inline-block;
+    cursor: pointer;
+}
